@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/e86a4d4a63.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header>
+        <!-- nav section -->
+        <section class="max-w-screen-xl m-auto md:bg-[#F85559] rounded-full p-2  mt-5">
+            <div class="navbar hidden md:flex  ">
+                <div class="flex-1 flex gap-5">
+                    <a class="text-white">Home</a>
+                    <a class="text-white">About Us</a>
+                    <a class="text-white">Shop</a>
+                    <a class="text-white">All Fruits</a>
+                </div>
+                <div class="flex flex-1 gap-4">
+                    <img src="./images/logo.png" alt="">
+                    <h1 class="text-white">Fruit Burst</h1>
+                </div>
+                <div class="flex-none gap-2 ">
+                    <div class="">
+                        <i class="text-black fa-solid fa-magnifying-glass relative left-72"></i>
+                        <input type="text" placeholder="Search" class="input input-bordered md:w-auto lg:w-80 rounded-full" />
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hamburger menu for mobile view -->
+            <div class="md:hidden flex justify-between items-center bg-white">
+                <div class="flex items-center gap-2"> 
+                    <img src="./images/logo.png" alt="">
+                    <h1 class="text-2xl font-bold">Fruit Burst</h1>
+                </div>
+                <div class="hamburger-icon p-2">
+                    
+                    <i class="text-black fas fa-bars text-2xl"></i>
+                </div>
+            </div>
+
+        </section>
+    </header>
+</body>
+</html>
