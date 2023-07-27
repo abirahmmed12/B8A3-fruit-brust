@@ -59,10 +59,16 @@
                     <img src="./images/logo.png" alt="">
                     <h1 class="text-2xl font-bold">Fruit Burst</h1>
                 </div>
-                <div class="hamburger-icon p-2">
-
-                    <i class="text-black fas fa-bars text-2xl"></i>
-                </div>
+                <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost btn-circle">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+                    </label>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3  z-[1] p-2  shadow bg-base-100 rounded-box relative right-1 w-28 ">
+                      <li><a>Home</a></li>
+                      <li><a>About</a></li>
+                      <li><a>Shop</a></li>
+                      <li><a>All Fruits</a></li>
+                    </ul>
             </div>
 
         </section>
@@ -72,7 +78,7 @@
                 <div id="slide1" class="carousel-item  w-full relative">
 
                     <img src="./images/banner1.png" class="w-full brightness-50" />
-                    <div class="text-center absolute left-12 lg:top-36 md:left-60 lg:left-80 md:top-10">
+                    <div class="text-center absolute left-16 md:py-0 py-2 lg:top-36 md:left-60 lg:left-80 md:top-10">
                         <h1 class="lg:font-extrabold font-semibold lg:text-6xl  text-2xl  text-white">Exotic tastes at
                             your <br>doorstep</h1>
                         <p class=" text-white md:pt-8 pt-1 pb-2 md:pb-5">We supply highly quality organic products</p>
@@ -86,8 +92,8 @@
                 </div>
                 <div id="slide2" class="carousel-item relative w-full">
                     <img src="./images/banner2.png" class="brightness-50 w-full" />
-                    <div class="text-center absolute left-12 md:top-36 md:left-80">
-                        <h1 class="lg:font-extrabold font-semibold lg:text-6xl  text-4xl  text-white">Exotic tastes at
+                    <div class="text-center absolute left-16 md:top-36 md:left-80">
+                        <h1 class="lg:font-extrabold font-semibold lg:text-6xl  text-2xl  text-white">Exotic tastes at
                             your <br>doorstep</h1>
                         <p class=" text-white md:pt-8 pt-1 pb-2 md:pb-5">We supply highly quality organic products</p>
                         <button class=" btn btn-error bg-[#F85559] text-white">Shop Now</button>
@@ -99,8 +105,8 @@
                 </div>
                 <div id="slide3" class="carousel-item relative w-full">
                     <img src="./images/banner3.png" class="w-full brightness-50" />
-                    <div class="text-center absolute left-12 md:top-36 md:left-80">
-                        <h1 class="lg:font-extrabold font-semibold lg:text-6xl  text-4xl  text-white">Exotic tastes at
+                    <div class="text-center absolute left-16 md:top-36 md:left-80">
+                        <h1 class="lg:font-extrabold font-semibold lg:text-6xl  text-2xl  text-white">Exotic tastes at
                             your <br>doorstep</h1>
                         <p class=" text-white md:pt-8 pt-1 pb-2 md:pb-5">We supply highly quality organic products</p>
                         <button class=" btn btn-error bg-[#F85559] text-white">Shop Now</button>
@@ -112,8 +118,8 @@
                 </div>
                 <div id="slide4" class="carousel-item relative w-full">
                     <img src="./images/banner4.png" class="w-full brightness-50" />
-                    <div class="text-center absolute left-12 md:top-36 md:left-80">
-                        <h1 class="lg:font-extrabold font-semibold lg:text-6xl  text-4xl  text-white">Exotic tastes at
+                    <div class="text-center absolute left-16 md:top-36 md:left-80">
+                        <h1 class="lg:font-extrabold font-semibold lg:text-6xl  text-2xl  text-white">Exotic tastes at
                             your <br>doorstep</h1>
                         <p class=" text-white md:pt-8 pt-1 pb-2 md:pb-5">We supply highly quality organic products</p>
                         <button class=" btn btn-error bg-[#F85559] text-white">Shop Now</button>
@@ -160,8 +166,8 @@
         <div class="md:flex 
          mt-20  ">
             <div class="md:flex-1 ">
-                <h1 class="md:text-5xl text-2xl font-bold md:pl-0 pl-[120px]  ">Deal of the day</h1>
-                <p class="font-light pt-6 text-center  md:p-0 p-14  ">Contrary to popular belief, is not simply random text. It has roots in a
+                <h1 class="md:text-5xl text-4xl font-bold md:pl-0 text-center ">Deal of the day</h1>
+                <p class="font-light pt-6 text-center  md:p-0 px-10  ">Contrary to popular belief, is not simply random text. It has roots in a
                     piece  of classical Latin literature from 45 BC, making it over 2000 years old.</p>
             </div>
             <div class=" md:flex-1 lg:relative lg:left-[350px] md:pl-0 pl-24">
@@ -415,7 +421,7 @@
         
            
         </section>
-        <div class="text-center pt-8">
+        <div class="text-center pt-8 mb-5">
             <button class=" btn btn-error">Shop All</button>
         </div>
         
@@ -464,7 +470,7 @@
                             <i class="text-red-500 fa-brands fa-linkedin"></i>
                           </div>
                      </div>
-                       <div class="m-auto ">
+                       <div class="m-auto md:mb-0 mb-5 ">
                          <img src="./images/member4.png" alt="">
                          <h1 class="text-center text-white" >Chaity</h1>
                          <h1 class="text-center text-white">Fruits Expert</h1>
@@ -480,78 +486,80 @@
           </div>
     </section>
     <section class="max-w-screen-xl m-auto">
-        <div class="text-center py-20">
-            <h1>Why Choose Us</h1>
-        <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+        <div class="text-center py-10">
+            <h1 class="text-3xl font-bold py-4">Why Choose Us</h1>
+        <p class="font-light">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
         </div>
 
         
-       <div class="md:flex gap-5">
-         <div class="flex-1">
+       <div class="grid md:flex md:flex-wrap items-center md:py-0 px-5">
+         <div class="flex-1 order-2 md:order-1">
             
-            <div class="flex items-center gap-4 py-5">
-                <i class="text-2xl fa-solid fa-person-rays"></i>
+            <div class="md:flex items-center gap-4 py-5 text-center">
+                <i class="text-3xl fa-solid fa-person-rays"></i>
                 <div>
-                    <h1>Dedicated Team</h1>
+                    <h1 class="text-2xl font-semibold py-4">Dedicated Team</h1>
                     <hr>
-                <h1>Professional employees are there for you to pick the most amazing and fresh fruits.</h1>
+                <h1 class="font-light">Professional employees are there for you to pick the most amazing and fresh fruits.</h1>
                 </div>
                 
             </div>
-            <div class="flex items-center gap-4 py-5">
-                <i class="text-2xl fa-solid fa-heart"></i>
+            <div class="md:flex items-center gap-4 py-5 text-center">
+                <i class="text-3xl fa-solid fa-heart"></i>
                 <div>
-                    <h1>Fresh is Best</h1>
+                    <h1 class="text-2xl font-semibold py-4">Fresh is Best</h1>
                     <hr>
-                <h1>Professional employees are there for you to pick the most amazing and fresh fruits.</h1>
+                <h1 class="font-light">Professional employees are there for you to pick the most amazing and fresh fruits.</h1>
                 </div>
                 
             </div>
             
-            <div class="flex items-center gap-4 py-5">
-                <i class="text-2xl fa-solid fa-gift"></i>
+            <div class="md:flex items-center gap-4 py-5 text-center">
+                <i class="text-3xl fa-solid fa-gift"></i>
                 <div>
-                    <h1>Gift Certificates</h1>
+                    <h1 class="text-2xl font-semibold py-4">Gift Certificates</h1>
                     <hr>
-                <h1>Professional employees are there for you to pick the most amazing and fresh fruits.</h1>
+                <h1 class="font-light">Professional employees are there for you to pick the most amazing and fresh fruits.</h1>
                 </div>
                 
             </div>
           </div>
-          <div class="flex-1">
-            <img src="./images/whychoose1.png" alt="">
+          <div class="flex-1 order-1 md:order-2 md:px-0 px-6 ">
+            <img class="rounded-lg" src="./images/whychoose1.png" alt="">
           </div>
-          <div class="flex-1">
+          <div class="flex-1 order-3 md:order-3">
             
-            <div class="flex items-center gap-4 py-5 text-end">
+            <div class="md:flex flex flex-col-reverse md:flex-row items-center gap-4 py-5 md:text-end text-center">
                 <div>
-                    <h1 class="te">Integrated Supplier</h1>
+                    <h1 class="text-2xl font-semibold py-4">Integrated Supplier</h1>
                     <hr>
-                <h1>Professional employees are there for you to pick the most amazing and fresh fruits.</h1>
+                <h1 class="font-light">Professional employees are there for you to pick the most amazing and fresh fruits.</h1>
                 </div>
-                <i class="text-2xl fa-solid fa-person-rays"></i>
+                <img class="w-10" src="./images/2501615-200.png" alt="">
                 
                 
             </div>
-            <div class="flex items-center gap-4 py-5 text-end">
+            <div class="md:flex flex flex-col-reverse md:flex-row items-center   gap-4 py-5 md:text-end text-center">
 
                 <div>
-                    <h1>Sustainable Practice</h1>
+                    <h1 class="text-2xl font-semibold py-4">Sustainable Practice</h1>
                     <hr>
-                <h1>Professional employees are there for you to pick the most amazing and fresh fruits.</h1>
+                <h1 class="font-light">Professional employees are there for you to pick the most amazing and fresh fruits.</h1>
                 </div>
-                <i class="text-2xl fa-solid fa-heart"></i>
+                <i class="text-4xl fa-solid fa-ice-cream "></i>
+                
                
                 
             </div>
             
-            <div class="flex items-center gap-4 py-5 text-end">
+            <div class="md:flex flex flex-col-reverse md:flex-row items-center gap-4 py-5 md:text-end text-center">
                 <div>
-                    <h1>The Benefits Only</h1>
+                    <h1 class="text-2xl font-semibold py-4">The Benefits Only</h1>
                     <hr>
-                <h1>Professional employees are there for you to pick the most amazing and fresh fruits.</h1>
+                <h1 class="font-light">Professional employees are there for you to pick the most amazing and fresh fruits.</h1>
                 </div>
-                <i class="text-2xl fa-solid fa-gift"></i>
+                <i class="text-4xl fa-regular fa-thumbs-up"></i>
+                
                
                 
             </div>
@@ -561,6 +569,34 @@
        </div>
         
     </section>
+   
+        <footer class="max-w-screen-xl m-auto bg-black footer footer-center p-10 bg-base-200 text-base-content rounded ">
+            <div class="flex">
+                <img src="./images/logo.png" alt="">
+                <h1 class="text-white text-2xl font-bold">Fruit Burst</h1>
+            </div>
+            <div class="grid grid-flow-col gap-4">
+              <a class="link link-hover text-white">About us</a> 
+              <a class="link link-hover text-white">Contact</a> 
+              <a class="link link-hover text-white">Shop</a> 
+              <a class="link link-hover text-white">Support</a>
+              <a class="link link-hover text-white">All Fruits</a>
+            </div> 
+            <div>
+              <div class="grid grid-flow-col gap-4">
+                <i class="text-white text-2xl fa-brands fa-facebook"></i>
+                <i class="text-white text-2xl  fa-brands fa-line"></i>
+                <i class="text-white text-2xl  fa-brands fa-youtube"></i>
+                <i class="text-white text-2xl  fa-brands fa-apple"></i>
+                <i class="text-white text-2xl  fa-brands fa-instagram"></i>
+                <i class="text-white text-2xl fa-brands fa-linkedin"></i>
+              </div>
+            </div> 
+            <div>
+              <p class="text-white">Copyright © 2023 - All right reserved </p>
+            </div>
+      </footer>
+   
 
 </body>
 
